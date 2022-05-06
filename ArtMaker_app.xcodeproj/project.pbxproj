@@ -11,6 +11,7 @@
 		FF557A8F2819B85200B3D58E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF557A8E2819B85200B3D58E /* ContentView.swift */; };
 		FF557A912819B85600B3D58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF557A902819B85600B3D58E /* Assets.xcassets */; };
 		FF557A942819B85600B3D58E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF557A932819B85600B3D58E /* Preview Assets.xcassets */; };
+		FF69062A28259CD700ACEA80 /* ArtMakerMoodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69062928259CD700ACEA80 /* ArtMakerMoodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FF557A8E2819B85200B3D58E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF557A902819B85600B3D58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF557A932819B85600B3D58E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF69062928259CD700ACEA80 /* ArtMakerMoodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtMakerMoodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FF557A8C2819B85200B3D58E /* ArtMaker_appApp.swift */,
 				FF557A8E2819B85200B3D58E /* ContentView.swift */,
+				FF69062928259CD700ACEA80 /* ArtMakerMoodel.swift */,
 				FF557A902819B85600B3D58E /* Assets.xcassets */,
 				FF557A922819B85600B3D58E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF557A8F2819B85200B3D58E /* ContentView.swift in Sources */,
+				FF69062A28259CD700ACEA80 /* ArtMakerMoodel.swift in Sources */,
 				FF557A8D2819B85200B3D58E /* ArtMaker_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
