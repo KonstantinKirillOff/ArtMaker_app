@@ -6,3 +6,33 @@
 //
 
 import Foundation
+
+struct ArtMakerModel {
+    var background: Background
+    var emojis = [Emoji]()
+    private var uniqueEmojiId = 0
+    
+    
+    struct Emoji: Identifiable {
+        let text: String
+        var x: Int
+        var y: Int
+        var size: Int
+        let id: Int
+    }
+    
+    enum Background {
+        case blank
+        case url
+        case imageData
+    }
+    
+    mutating func addEmoji(_ text: String, at location: (x: Int, y: Int), size: Int) {
+        uniqueEmojiId += 1
+        emojis.append(Emoji(text: text,
+                            x: location.x,
+                            y: location.y,
+                            size: size,
+                            id: uniqueEmojiId))
+    }
+}
