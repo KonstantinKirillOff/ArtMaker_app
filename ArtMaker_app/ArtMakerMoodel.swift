@@ -8,23 +8,28 @@
 import Foundation
 
 struct ArtMakerModel {
-    var background: Background
+    var background = Background.blank
     var emojis = [Emoji]()
     private var uniqueEmojiId = 0
     
+    init() {}
     
-    struct Emoji: Identifiable {
+    
+    struct Emoji: Identifiable, Hashable {
         let text: String
         var x: Int
         var y: Int
         var size: Int
         let id: Int
-    }
-    
-    enum Background {
-        case blank
-        case url
-        case imageData
+        
+        fileprivate init(text: String, x: Int, y: Int, size: Int, id: Int) {
+            self.text = text
+            self.x  = x
+            self.y = y
+            self.size = size
+            self.id = id
+        }
+        
     }
     
     mutating func addEmoji(_ text: String, at location: (x: Int, y: Int), size: Int) {

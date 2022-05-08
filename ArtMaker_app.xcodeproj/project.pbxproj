@@ -12,6 +12,10 @@
 		FF557A912819B85600B3D58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF557A902819B85600B3D58E /* Assets.xcassets */; };
 		FF557A942819B85600B3D58E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF557A932819B85600B3D58E /* Preview Assets.xcassets */; };
 		FF69062A28259CD700ACEA80 /* ArtMakerMoodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69062928259CD700ACEA80 /* ArtMakerMoodel.swift */; };
+		FF69062C2828183E00ACEA80 /* ArtMakerModel.Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69062B2828183E00ACEA80 /* ArtMakerModel.Background.swift */; };
+		FF69062E2828233300ACEA80 /* ArtMakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69062D2828233300ACEA80 /* ArtMakerViewModel.swift */; };
+		FF69063028282B4700ACEA80 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69062F28282B4700ACEA80 /* UtilityExtensions.swift */; };
+		FF69063228282BCC00ACEA80 /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69063128282BCC00ACEA80 /* UtilityViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		FF557A902819B85600B3D58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF557A932819B85600B3D58E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF69062928259CD700ACEA80 /* ArtMakerMoodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtMakerMoodel.swift; sourceTree = "<group>"; };
+		FF69062B2828183E00ACEA80 /* ArtMakerModel.Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtMakerModel.Background.swift; sourceTree = "<group>"; };
+		FF69062D2828233300ACEA80 /* ArtMakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtMakerViewModel.swift; sourceTree = "<group>"; };
+		FF69062F28282B4700ACEA80 /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		FF69063128282BCC00ACEA80 /* UtilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				FF557A8C2819B85200B3D58E /* ArtMaker_appApp.swift */,
 				FF557A8E2819B85200B3D58E /* ContentView.swift */,
 				FF69062928259CD700ACEA80 /* ArtMakerMoodel.swift */,
+				FF69062B2828183E00ACEA80 /* ArtMakerModel.Background.swift */,
+				FF69062D2828233300ACEA80 /* ArtMakerViewModel.swift */,
+				FF69062F28282B4700ACEA80 /* UtilityExtensions.swift */,
+				FF69063128282BCC00ACEA80 /* UtilityViews.swift */,
 				FF557A902819B85600B3D58E /* Assets.xcassets */,
 				FF557A922819B85600B3D58E /* Preview Content */,
 			);
@@ -140,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF69063228282BCC00ACEA80 /* UtilityViews.swift in Sources */,
 				FF557A8F2819B85200B3D58E /* ContentView.swift in Sources */,
 				FF69062A28259CD700ACEA80 /* ArtMakerMoodel.swift in Sources */,
+				FF69063028282B4700ACEA80 /* UtilityExtensions.swift in Sources */,
+				FF69062E2828233300ACEA80 /* ArtMakerViewModel.swift in Sources */,
 				FF557A8D2819B85200B3D58E /* ArtMaker_appApp.swift in Sources */,
+				FF69062C2828183E00ACEA80 /* ArtMakerModel.Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
