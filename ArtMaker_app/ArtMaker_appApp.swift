@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ArtMaker_appApp: App {
+    let artMakerViewModel = ArtMakerViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArtMakerDocumentView(artMakerViewModel: artMakerViewModel)
         }
     }
 }
